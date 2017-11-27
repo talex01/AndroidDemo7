@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">New Battery listener</string>
+    <string name="intro">Учебное задание, реализующее работу с ресиверами и сервисами.\n\nРесивер реагирует на событие ACTION_BATTERY_CHANGED и обращается к сервису, который в зависимости от уровня заряда и состояния батареи возвращает результат, который в последствии отображается в Notification.</string>
+    <string name="message1">Питание подключено - 75%</string>
+    <string name="message2">Полностью заряжена - 100%</string>
+    <string name="message3">Уровень заряда - 75%</string>
+    <string name="message4">Почти разряжена - 6%</string>
+    <string name="notification">Уведомление</string>
+    <string name="BatteryChanged">android.intent.action.BATTERY_CHANGED</string>
+    <string name="BatteryLow">android.intent.action.BATTERY_LOW</string>
+    <string name="AlertTitle">Предупреждение</string>
+    <string name="AlertMessage">Батарея скоро разрядится</string>
+    <string name="prefs_sound">sound</string>
+    <string name="prefs_vibration">vibration</string>
+    <string name="prefs_showDialog">showDialog</string>
+    <string name="prefs_darkTheme">darkTheme</string>
+    <string name="prefs_hoursFrom">hoursFrom</string>
+    <string name="prefs_hoursTo">hoursTo</string>
+    <string name="prefs_seekBar">seekBar</string>
+    <string name="prefs_prefs">prefs</string>
+</resources>
